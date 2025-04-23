@@ -35,6 +35,21 @@ We encourage you to apply your judgement that the bug has a discrete fix. If the
 
 We encourage you to browse around our MDEVs which are labelled “[Beginner friendly](https://jira.mariadb.org/browse/MDEV-15736?jql=resolution%20%3D%20Unresolved%20AND%20labels%20%3D%20beginner-friendly%20ORDER%20BY%20updated%20DESC)”. We also encourage you to use AI assistance by asking Cursor to help you with coding the MDEV. You can prompt it for help pointing to the URL of the MDEV; the suggestions are surprisingly insightful.
 
+### 1.5 Practical steps
+----
+
+Once you are ready to get coding: 
+
+1. Fork and fetch the code from [mariadb/server](https://github.com/mariadb/server)
+2. Compile it
+3. Test it 
+4. Write a patch
+5. Submit a pull request
+6. Make sure tests pass [buildbot](https://buildbot.mariadb.org/#/)
+7. Wait for feedback and merge
+
+See [Getting Started for Developers](https://mariadb.org/getting-started-for-developers) for further details.
+
 
 ## 2. Other ways to contribute to MariaDB
 ---
